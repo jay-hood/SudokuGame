@@ -1,0 +1,23 @@
+td {
+	width:70px;
+	height:70px;
+	border-width:1px;
+	border-color:black;
+	border-style:solid;
+	padding:1px;
+}
+
+table {
+	border-width:1px;
+	border-color:black;
+	border-style:solid;
+	border-spacing:1px;
+}
+
+tr {
+	border: 10px solid black;
+}
+
+td:nth-child(3) {
+	border: 10px solid black;
+	}

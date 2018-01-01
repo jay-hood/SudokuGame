@@ -1,0 +1,49 @@
+td {
+	width:70px;
+	height:70px;
+	border-width:1px;
+	border-color:black;
+	border-style:solid;
+	padding:1px;
+	font-size:40px;
+}
+
+table {
+	border:5px solid black;
+	border-spacing:1px;
+	border-collapse:collapse;
+	background:url("wave.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	float: right;
+}
+
+tr:nth-child(3) {
+	border-bottom: 5px solid black;
+}
+
+tr:nth-child(6) {
+	border-bottom: 5px solid black;
+}
+
+td:nth-child(3) {
+	border-right: 5px solid black;
+	}
+
+td:nth-child(6) {
+	border-right: 5px solid black;
+	}
+
+body {
+	background:url("background.jpg");
+	background-size: 100% auto;
+}
+
+#check_btn {
+	float:right;
+	background:url("test2.png");
+	height:100px;
+	width: 100px;
+	background-size: 100%;	
+	border:none;
+}
